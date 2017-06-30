@@ -1,0 +1,21 @@
+### NOT TESTED ###
+# Board: LogiPi 1.5.1
+#
+# Project: DataSelector.v
+#
+# Author: Nicolas CLERC
+#
+# Version: 1.0
+#
+# Status: Draft
+#-----------------------------------------------------------
+# A = Push Button 0 (P102)
+# B = Push Button 1 (P101)
+# SEL = Switch 1 (P100)
+# Q = onboard LED 1 (P104) 
+#
+
+NET "Q"     LOC = "P104" 		| IOSTANDARD = LVTTL;		#SHARED WITH ARD_D7
+NET "A"     LOC = "P102" 		| IOSTANDARD = LVTTL;
+NET "B"     LOC = "P101" 		| IOSTANDARD = LVTTL;
+NET "SEL"   LOC = "P100" 		| IOSTANDARD = LVTTL;
