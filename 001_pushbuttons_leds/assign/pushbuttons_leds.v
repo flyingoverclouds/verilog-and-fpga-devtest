@@ -1,22 +1,4 @@
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer:  Nicolas CLERC
-// 
-// Create Date:    22:41:15 07/04/2017 
-// Design Name: 
-// Module Name:    pushbuttons_leds_assign 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
+
 module pushbuttons_leds_assign(
     input  PB0_n,
     input  PB1_n,
