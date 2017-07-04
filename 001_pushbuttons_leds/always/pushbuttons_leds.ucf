@@ -1,0 +1,13 @@
+
+#######################
+# Pin LOC Constraints #
+######################
+
+##### Bank 2 #####
+NET "LED0"        LOC = P105 | IOSTANDARD = LVTTL;		#SHARED WITH ARD_D6
+NET "LED1"        LOC = P104 | IOSTANDARD = LVTTL;		#SHARED WITH ARD_D7
+
+NET "PB0_n"        LOC = P102 | IOSTANDARD = LVTTL;
+NET "PB1_n"        LOC = P101 | IOSTANDARD = LVTTL;
+
+
