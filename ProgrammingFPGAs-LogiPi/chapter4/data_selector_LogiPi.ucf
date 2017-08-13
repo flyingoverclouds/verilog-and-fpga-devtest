@@ -15,7 +15,7 @@
 # Q = onboard LED 1 (P104) 
 #
 
-NET "Q"     LOC = "P104" 		| IOSTANDARD = LVTTL;		#SHARED WITH ARD_D7
-NET "A"     LOC = "P102" 		| IOSTANDARD = LVTTL;
-NET "B"     LOC = "P101" 		| IOSTANDARD = LVTTL;
-NET "SEL"   LOC = "P100" 		| IOSTANDARD = LVTTL;
+NET "Q"     LOC = "P104" 		| IOSTANDARD = LVTTL;	# Q = onboard LED 1 (P104) 	#SHARED WITH ARD_D7
+NET "A"     LOC = "P102" 		| IOSTANDARD = LVTTL;   # A = Push Button 0 (P102)
+NET "B"     LOC = "P101" 		| IOSTANDARD = LVTTL;   # B = Push Button 1 (P101)
+NET "SEL"   LOC = "P100" 		| IOSTANDARD = LVTTL;   # SEL = Switch 1 (P100)

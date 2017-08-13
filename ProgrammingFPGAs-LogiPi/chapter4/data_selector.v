@@ -15,9 +15,13 @@ module data_selector(
     output reg Q
 );
 
+initial
+    begin
+        $display("RUN starting ...");
+    end
 
 
-    always @(A or B or SEL)
+always @(A or B or SEL)
     begin
         if (SEL)
             Q = A;
